@@ -1,0 +1,65 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #222;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main{
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+main h2{
+  margin-bottom: 15px;
+}
+
+form{
+  display: flex;
+  gap: 10px;
+}
+
+form input{
+  padding: 8px;
+  font-size: 17px;
+  outline: none;
+}
+
+form button {
+  border: none;
+  background-color: blueviolet;
+  color: #f2f2f2;
+  font-size: 25px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.anotacoes{
+  margin-top: 10px;
+}
+
+.anotacao{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.delete{
+  cursor: pointer;
+  border: none;
+  background-color: #f25454;
+  color: #f2f2f2;
+  padding: 10px;
+}
